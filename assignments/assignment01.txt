@@ -1,0 +1,22 @@
+Assalamu Alaikum students,
+
+Assignment 01:
+
+Task:
+- Write the HTML to match the design shown in this image:
+  https://drive.google.com/file/d/1BtC8sQkubjmNKwR4wNAHUpG96HVrNSYW/view?usp=sharing
+
+
+Requirements:
+- Use basic HTML tags like <h1>, <p>, <ul>, etc.
+- No CSS needed, just focus on structure.
+- Replicate the layout and text exactly as shown.
+
+Deadline:
+Submit your HTML file by this Saturday via a shareable link (Google Drive, GitHub, etc.).
+
+Submit At: https://forms.gle/okN6Kq3JzyzNz1XB7
+
+Best, 
+Naveed Sarwar 
+https://www.youtube.com/@NaveedSarwarOfficial | https://www.facebook.com/naveedsarwarofficial | https://www.tiktok.com/@devnaveedsarwar | https://www.linkedin.com/in/naveed-software-engineer/ | https://www.linkedin.com/in/naveed-software-engineer/ | https://www.facebook.com/naveedtrainerofficial | https://whatsapp.com/channel/0029VaEdSCu90x32BxMx8s3P

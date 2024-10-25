@@ -1,0 +1,12 @@
+Assignment#03
+Dear Students.
+Web and Mobile Application Development, Batch-08
+Requirements:
+1- Inlcude inline, internal, external in html
+2- CSS Casding rules 
+3- HTML tags h1, p, list, table, form color, background change
+
+Deadline: 27-10-2024
+Submit: https://forms.gle/ETaXunLfAeE6cowi6
+Regards
+Naveed Sarwar
