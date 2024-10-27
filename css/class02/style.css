@@ -1,0 +1,43 @@
+.heading{
+    color:aqua;
+    color: rgb(87, 153, 20);
+    color: rgba(23, 24, 12, 0.186);
+    color: hsl(80, 40%, 50%);
+    color: hsla(220, 25%, 19%, 0.365);
+    /* opacity: 0.5; */
+    color:red;
+    background-color: #1831bb;
+    font-size: 5em;
+    font-weight: bolder;
+    font-style:normal;
+    /* font-family: 'myFont'; */
+    text-align: justify;
+    text-transform: capitalize;
+    text-decoration:overline;
+    text-shadow: 5px 5px 5px rgb(243, 18, 18);
+    letter-spacing:50px;
+    line-height: 1.5;
+    word-spacing: 50px;
+    
+    
+
+}
+.world{
+    color:rgb(0, 255, 238);
+    font-size: 40px;
+}
+
+p{
+    font-size: 32px;
+    font-family: "Kablammo", sans-serif;
+    text-align: center;
+    line-height:100px;
+    word-spacing: 50px;
+    letter-spacing: 50px;
+
+}
+
+@font-face {
+    font-family: 'myFont';
+    src: url('./fonts/Kablammo/Kablammo-Regular-VariableFont_MORF.ttf');
+}

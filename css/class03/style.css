@@ -1,0 +1,154 @@
+* {
+    margin: 0px;
+}
+
+body {
+    margin: 0px;
+}
+
+.hello {
+    /* text-align: center; */
+    background-color: aqua;
+    margin: 10px 20px;
+    /* margin-top: 20px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 20px; */
+    padding: 10px 20px;
+    /* border: 5px solid rgb(241, 8, 8); */
+    /* border-color: seagreen;
+    border-width: 5px;
+    border-style:dotted;
+    border: 10px solid seagreen;
+    border-radius: 20px; */
+    border-top: 4px solid seagreen;
+    border-bottom: 4px solid sienna;
+    border-left: 4px solid skyblue;
+    border-right: 4px solid slateblue;
+    border-right-color: aqua;
+    border-right-style: solid;
+    border-right-width: 4px;
+    border-top-right-radius: 29px;
+    border-bottom-right-radius: 50px;
+    border-top-left-radius: 100px;
+    border-bottom-left-radius: 200px;
+
+
+
+}
+
+.sdf {
+    background-color: violet;
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+
+    padding: 20px;
+    padding: 20px 30px 40px 50px;
+    padding: 20px 30px 40px;
+    padding: 20px 30px;
+    margin: 0px;
+    width: 100vw;
+    height: 50vh;
+
+}
+
+a {
+    background-color: red;
+    /* padding: 10px; */
+    padding-right: 30px;
+}
+
+
+.bg {
+    width: 100%;
+    height: 100vh;
+    background-color: aqua;
+    background-image: url("./bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: scroll;
+    /* background-origin:content-box; */
+    /* background-clip:content-box; */
+    background-color: aqua;
+
+    /* background: fixed url("./bg.jpg") no-repeat center/contain content-box content-box aqua; */
+
+}
+
+.bg1 {
+    background-color: rgba(0, 0, 0, 0.6);
+    height: 100vh;
+    color: rgba(255, 255, 255, 0.292);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+table{
+    border-collapse: collapse;
+    width: 100%;
+}
+th,td{
+    border-bottom: 1px solid black;
+    padding: 10px;
+    text-align: center;
+}
+th{
+    background-color: aqua;
+}
+
+tr:hover{
+    background-color: gainsboro;
+    color: white;
+}
+/* tr:nth-child(even){
+    background-color: lightgray;
+}
+tr:nth-child(odd){
+    background-color: lightblue;
+} */
+
+
+input{
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    border: 1px solid black;
+
+}
+input:focus{
+    border: 2px solid red !important;
+    outline: none;
+    width: 300px;
+}
+
+#btn{
+    padding: 10px 0px 10px 10px;
+    margin: 10px;
+    border-radius: 10px;
+    border: 1px solid black;
+    color: white;
+    cursor: pointer;
+    width: 90px;
+    background-color: green;
+}
+
+button{
+   background-color: green;
+   border: none;    
+   
+}
+#btn:hover{
+    background-color: red;
+}
+
+
+
+.abc:hover{
+    color: white;
+}
+
