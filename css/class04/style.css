@@ -1,0 +1,105 @@
+#one{
+/* background-color: aqua; */
+width: 50%;
+/* height: 200px; */
+background-color: #00004E;
+float: left;
+}
+#two{
+/* background-color: yellow; */
+width: 50%;
+/* height: 200px; */
+float: left;
+background-color: #00004E;
+color: white;
+
+
+
+
+}
+
+#parent{
+    background-color: #00004E;
+    width: 100%;
+}
+
+
+
+
+#three{
+background-color: red;
+margin-left: 3%;
+width: 30%;
+height: 200px;
+float: left;
+  
+}
+
+@media screen and (min-width: 200px) and (max-width: 600px) {
+    #one, #two, #three {
+        width: 100%;
+    }
+}
+
+
+h1{
+    color: white;
+    text-align: center;
+    background-color: #00004E;
+}
+
+@media screen and (max-width: 500px) {
+ 
+h1{
+    background-color: red;
+}
+
+}
+
+
+    @media screen and (max-width: 500px) {
+ 
+        #two{
+            background-color: red;
+        }
+
+        h1{
+            background-color: red;
+        }
+        
+        
+        }
+
+        @media screen and (max-width: 500px) {
+ 
+            h1:hover{
+                background-color: red;
+            }
+            
+            }
+
+
+
+@media screen and (min-width: 500px) and (max-width: 800px) {
+ 
+    h1{
+        font-size: 20px;
+    }
+    
+    }
+
+    @media screen and (max-width: 500px) {
+ 
+        #three{
+            background-color: red;
+        }
+    
+        h1{
+            background-color: red;
+        }
+        
+        
+        }
+
+
+    
