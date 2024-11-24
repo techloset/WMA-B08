@@ -1,0 +1,78 @@
+.box1{
+    background-color: red;
+    color:aqua;
+    height: 100px;
+    width: 100px;
+    margin: 30px;
+    /* transition: transform 2s ease-in; */
+    animation: abc 3s ease-in 1s infinite;
+    
+
+
+}
+
+@keyframes abc{
+    0%{
+        animation-play-state: paused;
+    }
+
+    50%{
+        transform: rotate(30deg);
+
+    }
+    
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+
+/* .box1:hover{
+    transform: rotate(360deg);
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.parent{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    /* align-items: stretch; */
+    width: 100%;
+    background-color: yellow;
+    /* height: 100vh; */
+    flex-wrap: wrap;  
+    /* gap: 10px; */
+    /* row-gap: 50px; */
+}
+
+.child1{
+background-color: aqua;
+padding: 5px;
+max-width: 30%;   
+}
+.child2{
+background-color: blue;
+padding: 5px;
+max-width: 30%;   
+/* align-self: flex-end; */
+}
+.child3{
+background-color: red;
+padding: 5px;
+max-width: 30%;   
+}
