@@ -13,13 +13,15 @@ function Routing() {
 
 
   return (
-    <div>
+    <>
 
-      <BrowserRouter>
-        <main>
-          {/* <Sidebar /> */}
 
-          <div class="main-content">
+      <main>
+        <Sidebar />
+
+        <BrowserRouter>
+
+          <div className="main-content">
             <Navbar />
 
             <Routes>
@@ -32,14 +34,15 @@ function Routing() {
             </Routes>
 
           </div>
+        </BrowserRouter>
 
-        </main>
-
-
-      </BrowserRouter>
+      </main>
 
 
-    </div>
+
+
+
+    </>
   )
 }
 export default Routing;

@@ -1,9 +1,7 @@
 import React from 'react'
 
-export default function Button({children}) {
+export default function Button(props) {
   return (
-    <div>
-        {children}
-    </div>
+      <button className="btn" style={{backgroundColor:'yellow'}}>{props.buttonText}</button>
   )
 }

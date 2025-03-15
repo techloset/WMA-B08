@@ -4,8 +4,8 @@ import "./app.css"
 
 export default function App() {
   return (
-    <div>
+    <>
       <Routing/>
-    </div>
+    </>
   )
 }
