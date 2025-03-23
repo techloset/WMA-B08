@@ -1,0 +1,11 @@
+Assignment#12
+Dear Students.
+Please follow the instructions, and convert figmo into react website
+https://www.figma.com/design/hpDuJJsikYsBHHCEbBZ0ch/rentiz-real-estate-free-website-template-(Community)?node-id=0-1&m=dev&t=0bsMHPauLjO6OBvi-1
+
+- Make sure components is there 
+- pages
+- routing
+- constant data loops
+- props
+submit: https://forms.gle/8VsjDvqTjy7wbakj6

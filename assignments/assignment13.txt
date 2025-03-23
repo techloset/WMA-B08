@@ -1,11 +1,8 @@
-Assignment#13
+Assignment#14
 Dear Students.
-Please follow the instructions, and convert figmo into react website
-https://www.figma.com/design/hpDuJJsikYsBHHCEbBZ0ch/rentiz-real-estate-free-website-template-(Community)?node-id=0-1&m=dev&t=0bsMHPauLjO6OBvi-1
-
-- Make sure components is there 
-- pages
-- routing
-- constant data loops
-- props
-submit: 
+Create a todo app with functionlity using useState, 
+- User can create todo
+- User can delete todo
+- User can update todo
+- Show list of todos in table / ul/li
+submit: https://docs.google.com/forms/d/e/1FAIpQLSfApC9fKKn5l8OGtevQ8XS0YXsmyW6wubDNd-BZpgaC1kTakQ/viewform?usp=dialog
