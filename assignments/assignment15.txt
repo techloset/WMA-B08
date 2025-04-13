@@ -1,0 +1,13 @@
+Assignment#15
+Dear Students.
+Create recipe app using api
+- Show list of all recipes
+- User can see recipe detail on click of post ( Show model or navigate to detail page)
+- User can search recipes using API
+- Use api pagination
+- Show list of tags in sidebar ( filter recipes based on user selection)
+- User can create new recipe
+- User can update recipe
+- use api's https://dummyjson.com/docs/recipes
+submit: https://forms.gle/f88KuUfSNjBuiSAVA
+

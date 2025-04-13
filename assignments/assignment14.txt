@@ -1,0 +1,11 @@
+Assignment#14
+Dear Students.
+Create a facebook like posts app using api's, 
+- Show list of all posts
+- total likes on posts
+- Show total views on post
+- Show comments when users click on comments
+- show user profile on each post
+- Pagination with api's
+- use api's https://dummyjson.com/docs/posts
+submit: https://forms.gle/USMSWiHHbMwxMNUcA
