@@ -1,23 +1,22 @@
 import axios from "axios";
 import React, { useEffect, useState } from 'react'
 import ProductItem from "../../components/product-item/ProductItem";
+import { useSelector,useDispatch } from "react-redux";
+import { getProducts,setLoadMoreCount } from "../../store/slices/product.slice";
 export default function Products() {
-    const [products, setProducts] = React.useState([]);
-    const [loadMoreCount, setLoadMoreCount] = React.useState(1);
-    const [loading, setLoading] = React.useState(false);
-    const getProducts = async () => {
-        try {
-            const response = await axios.get("https://fakestoreapi.com/products");
-            console.log(response.data);
-            setProducts(response.data);
-        }
-        catch (err) {
-            console.log(err);
-        }
+    const dispatch = useDispatch();
+    const products = useSelector((store) => store.productSlice.products);
+    const loading = useSelector((store) => store.productSlice.loading);
+    const loadMoreCount = useSelector((store) => store.productSlice.loadMoreCount);
+    const error = useSelector((store) => store.productSlice.error);
+   
+    const onClickHandler = () => {
+        console.log("onClickHandler clicked");
+        dispatch(setLoadMoreCount())
     }
 
     useEffect(() => {
-        getProducts();
+        dispatch(getProducts());
     }, []);
     return (
         <div style={{ color: 'wheat' }}>
@@ -28,7 +27,7 @@ export default function Products() {
                     return <ProductItem key={product.id} product={product} />
                 })}
             </div>
-            <button onClick={() => setLoadMoreCount(loadMoreCount + 1)} style={{ marginTop: '20px', padding: '10px 20px', backgroundColor: 'blue', color: 'white', border: 'none', borderRadius: '5px' }}>Load More</button>
+            <button onClick={onClickHandler} style={{ marginTop: '20px', padding: '10px 20px', backgroundColor: 'blue', color: 'white', border: 'none', borderRadius: '5px' }}>Load More</button>
 
         </div>
     )
