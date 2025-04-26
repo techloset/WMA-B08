@@ -1,0 +1,48 @@
+Assignment#16
+Dear Students,
+
+Please create a React.js application with Firebase integration that includes the following features:
+
+1. User Authentication:
+   - Sign up with email and password
+   - Login with email and password
+   - Logout functionality
+
+2. Database Operations:
+   - Create a collection in Firebase Firestore
+   - Add new items to the collection
+   - Read and display items from the collection
+   - Update existing items
+   - Delete items
+
+3. Required Components:
+   - Authentication forms (Sign up and Login)
+   - Dashboard to display data
+   - Form to add new items
+   - List view of all items with edit and delete options
+
+4. Technical Requirements:
+   - Use React.js for frontend
+   - Implement Firebase Authentication
+   - Use Firebase Firestore for database
+   - Implement proper error handling
+   - Add loading states
+   - Use proper routing with React Router
+   - Style your application using CSS/SCSS
+
+5. Bonus Points:
+   - Add form validation
+   - Implement real-time updates
+   - Add user profile management
+   - Implement search functionality
+   - Add pagination for large datasets
+
+Deadline: 15-12-2024
+Submit: https://forms.gle/your-submission-form-link
+
+Note: Make sure to:
+1. Create a new GitHub repository for this project
+2. Push your code to GitHub
+3. Deploy your application (you can use Firebase Hosting)
+4. Include a README.md file with setup instructions
+5. Share both GitHub repository link and deployed application URL in your submission 

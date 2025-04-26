@@ -9,6 +9,7 @@ import Navbar from "../components/navbar/Navbar";
 import Products from "../pages/products/Products";
 import Github from "../pages/github/github";
 import Counter from "../pages/counter/Counter";
+import Post from "../pages/posts/Post";
 
 
 function Routing() {
@@ -38,6 +39,7 @@ function Routing() {
               <Route path="/contact" element={<Contact />} />
               <Route path="/products" element={<Products />} />
               <Route path="/counter" element={<Counter />} />
+              <Route path="/posts" element={<Post />} />
               <Route path="*" element={<h1>404 Not Found</h1>} />
             </Routes>
 
