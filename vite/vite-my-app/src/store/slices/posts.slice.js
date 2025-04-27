@@ -1,5 +1,5 @@
 import { createSlice, createAsyncThunk } from "@reduxjs/toolkit";
-import { collection, addDoc,getDocs,deleteDoc,updateDoc } from "firebase/firestore";
+import { collection, addDoc,getDocs,deleteDoc,updateDoc,doc } from "firebase/firestore";
 import { db } from "../../config/firebase"; // Import the db from firebase.js
 
 // create post async thunk
@@ -117,10 +117,11 @@ export const postSlice = createSlice({
             })
             .addCase(updatePost.fulfilled, (state, action) => {
                 state.loading = false;
-                const index = state.posts.findIndex((post) => post.id === action.payload.id);
-                if (index !== -1) {
-                    state.posts[index] = action.payload;
-                }
+                console.log("action.payload.id",action);
+                
+                state.posts = state.posts.map((post) =>
+                    post.id === action.payload.id ? action.payload : post
+                );
                 state.error = null;
             })
             .addCase(updatePost.rejected, (state, action) => {
